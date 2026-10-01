@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(111, 192, 192);
+}
+
+header{
+    background: #1d4c4f;
+    color: rgb(174, 236, 244);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.top-nav a{
+    color: rgb(200, 241, 252);
+    text-decoration: none;
+    margin-left: 20px0;
+    background-color: rgb(77, 149, 164);
+    padding: 8px;
+    box-shadow: 5px 5px 5px rgb(182, 226, 241);
+}
+
+.container{
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    min-height: calc(100vh-50px);
+    background: #448698;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar a:hover{
+    background: #206676;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: rgb(200, 242, 252);
+    margin: 10px;
+    background-color: rgb(29, 74, 86);
+    padding: 10px;
+}
+
+.content{
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card{
+    background: rgb(204, 245, 255);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(rgb(177, 225, 245), rgb(177, 225, 245), rgb(177, 225, 245), alpha);
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+
+}
+
+.card img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+footer{
+    text-align: center;
+    background: #b9f4ff;
+    color: rgb(180, 231, 245);
+    padding: 10px 0;
+}
